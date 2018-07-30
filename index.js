@@ -140,7 +140,7 @@ bot.on("message", async function(message) {
     break;
 
     case "evoria":
-     message.reply("Voilà le discord: https://discord.gg/cSTeY7y  :ok_hand:");
+     message.channel.send("@everyone Voilà le discord du créateur: https://discord.gg/cSTeY7y  :ok_hand:");
      message.delete();
     break;
       
