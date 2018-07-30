@@ -71,7 +71,7 @@ bot.on("message", async function(message) {
                 .addField("$twitch", "Pour avoir la chaine Twitch de Lolox !")
                 .addField("$ts", "Ip du TeamSpeak3")
                 .addField("$live", "Pour les Streamere !")
-                .addField("$serveur", " Serveur Arma3")
+                .addField("$serveur", " Serveur Minecraft")
                 .setColor("#00a1ff")
                 .setAuthor("Aide de KaffWorld communauté | Bot")
                 .setDescription("Voici les commandes")
