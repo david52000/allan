@@ -66,7 +66,7 @@ bot.on("message", async function(message) {
                 .addField("$musique", "Jouer une musique !")
                 .addField("$membres", "Permet de savoir le nombre de personnes sur le Discord")
                 .addField("$google", "Faite cette commande + (la recherche que vous souhaitez faire) !")
-                .addField("$:youtube", "Faite cette commande + (la recherche que vous souhaitez faire)")
+                .addField("$youtube", "Faite cette commande + (la recherche que vous souhaitez faire)")
                 .addField("$youtubeallan", "Pour avoir la chaine Youtube de AllanTuto52 !")
                 .addField("$ts", "Ip du TeamSpeak3")
                 .addField("$live", "Pour les Streamere !")
