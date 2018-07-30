@@ -158,8 +158,8 @@ bot.on("message", async function(message) {
     break;
         
       
-     case "live":
-     message.reply("Je suis en Live :wink: ");
+     case "liveallan":
+     message.reply("Je suis en Live ICI : https://www.youtube.com/channel/UCYq6eELCpCg5QKBy2JLKkEg :wink: ");
      message.delete();
     break;
      
