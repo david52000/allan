@@ -70,10 +70,10 @@ bot.on("message", async function(message) {
                 .addField("$youtubeallan", "Pour avoir la chaine Youtube de AllanTuto52 !")
                 .addField("$twitch", "Pour avoir la chaine Twitch de Lolox !")
                 .addField("$ts", "Ip du TeamSpeak3")
-                .addField("$collection", "Pour avoir la collection !")
+                .addField("$live", "Pour les Streamere !")
                 .addField("$serveur", " Serveur Arma3")
                 .setColor("#00a1ff")
-                .setAuthor("Aide de DaVid | Bot")
+                .setAuthor("Aide de KaffWorld communauté | Bot")
                 .setDescription("Voici les commandes")
                 .setTimestamp()
                 message.delete()
@@ -130,7 +130,7 @@ bot.on("message", async function(message) {
     break;
       
       case "ts":
-     message.reply("Voilà l'ip du TeamSpeak: 176.190.225.113 :ok_hand:");
+     message.reply("Voilà l'ip du TeamSpeak: 176.190.225.113:9988 :ok_hand:");
      message.delete();
     break;
 
@@ -158,8 +158,8 @@ bot.on("message", async function(message) {
     break;
         
       
-     case "collection":
-     message.reply("Collection arrive bientôt Bon Jeux :wink: ");
+     case "live":
+     message.reply("Je suis en Live :wink: ");
      message.delete();
     break;
      
@@ -179,13 +179,13 @@ bot.on("message", async function(message) {
 
             var embed = new Discord.RichEmbed()
 
-                .addField(":.purge", "Pour supprimer les messages, faites a.purge + (le nombre de message à supprimer dans le channel)")
+                .addField("$.purge", "Pour supprimer les messages, faites a.purge + (le nombre de message à supprimer dans le channel)")
 
-                .addField(":.annonce", "Met un message dans Information, faites a.annonce + (le message à mettre dans information)")
+                .addField("$.annonce", "Met un message dans Information, faites a.annonce + (le message à mettre dans information)")
 
-                .addField(":.@annonce", "Met un message dans information avec une mention dans lequel vous avez écrit, faites *.@annonce (dans un channel) + le texte que vous voulez mettre")
+                .addField("$.@annonce", "Met un message dans information avec une mention dans lequel vous avez écrit, faites *.@annonce (dans un channel) + le texte que vous voulez mettre")
 
-                .addField(":.warn", "Pour l'utiliser, faite la commande + mention de la personne + raison")
+                .addField("$.warn", "Pour l'utiliser, faite la commande + mention de la personne + raison")
 
                 .setColor("#ff0000")
 
