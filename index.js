@@ -159,7 +159,7 @@ bot.on("message", async function(message) {
         
       
      case "liveallan":
-     message.reply("Je suis en Live ICI : https://www.youtube.com/channel/UCYq6eELCpCg5QKBy2JLKkEg :wink: ");
+     message.reply("@everyone Je suis en Live ICI : https://www.youtube.com/channel/UCYq6eELCpCg5QKBy2JLKkEg :wink: ");
      message.delete();
     break;
      
