@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const YTDL = require("ytdl-core");
-const PREFIX = ":";
+const PREFIX = "$";
 const queue = new Map();
 const EVERYONE = "@";
 
@@ -24,7 +24,7 @@ function play(connection, message) {
 }
 
 bot.on("ready", function() {
-    bot.user.setGame("KaffWorld communauté | :aide | By DaVid");
+    bot.user.setGame("KaffWorld communauté | $aide | By DaVid");
     console.log("Le Bot DaVid est connecté")
 });
 
@@ -62,16 +62,16 @@ bot.on("message", async function(message) {
     switch (args[0].toLowerCase()) {
         case "aide":
             var embed = new Discord.RichEmbed()
-                .addField(":ping", "C'est pour savoir mon ping en ce moment")
-                .addField(":musique", "Jouer une musique !")
-                .addField(":membres", "Permet de savoir le nombre de personnes sur le Discord")
-                .addField(":google", "Faite cette commande + (la recherche que vous souhaitez faire) !")
-                .addField(":youtube", "Faite cette commande + (la recherche que vous souhaitez faire)")
-                .addField(":youtubeallan", "Pour avoir la chaine Youtube de AllanTuto52 !")
-                .addField(":twitch", "Pour avoir la chaine Twitch de Lolox !")
-                .addField(":ts", "Ip du TeamSpeak3")
-                .addField(":collection", "Pour avoir la collection !")
-                .addField(":serveur", " Serveur Arma3")
+                .addField("$ping", "C'est pour savoir mon ping en ce moment")
+                .addField("$musique", "Jouer une musique !")
+                .addField("$membres", "Permet de savoir le nombre de personnes sur le Discord")
+                .addField("$google", "Faite cette commande + (la recherche que vous souhaitez faire) !")
+                .addField("$:youtube", "Faite cette commande + (la recherche que vous souhaitez faire)")
+                .addField("$youtubeallan", "Pour avoir la chaine Youtube de AllanTuto52 !")
+                .addField("$twitch", "Pour avoir la chaine Twitch de Lolox !")
+                .addField("$ts", "Ip du TeamSpeak3")
+                .addField("$collection", "Pour avoir la collection !")
+                .addField("$serveur", " Serveur Arma3")
                 .setColor("#00a1ff")
                 .setAuthor("Aide de DaVid | Bot")
                 .setDescription("Voici les commandes")
@@ -262,7 +262,7 @@ bot.on("message", async function(message) {
 
       
        default:
-            message.channel.sendMessage("Commande invalide Fait :aide pour voir toutes les commandes disponibles !")
+            message.channel.sendMessage("Commande invalide Fait $aide pour voir toutes les commandes disponibles !")
             message.delete();
     }
 });
