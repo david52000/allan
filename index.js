@@ -68,7 +68,6 @@ bot.on("message", async function(message) {
                 .addField("$google", "Faite cette commande + (la recherche que vous souhaitez faire) !")
                 .addField("$:youtube", "Faite cette commande + (la recherche que vous souhaitez faire)")
                 .addField("$youtubeallan", "Pour avoir la chaine Youtube de AllanTuto52 !")
-                .addField("$twitch", "Pour avoir la chaine Twitch de Lolox !")
                 .addField("$ts", "Ip du TeamSpeak3")
                 .addField("$live", "Pour les Streamere !")
                 .addField("$serveur", " Serveur Minecraft")
@@ -134,12 +133,7 @@ bot.on("message", async function(message) {
      message.delete();
     break;
 
-    case "twitch":
-     message.reply("Voilà sa Chaine: https://www.twitch.tv/lolox_fr  Bon Live :wink: ");
-     message.delete();
-    break;
-
-    case "evoria":
+    case "david":
      message.channel.send("@everyone Voilà le discord du créateur: https://discord.gg/cSTeY7y  :ok_hand:");
      message.delete();
     break;
