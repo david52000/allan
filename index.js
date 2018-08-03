@@ -128,6 +128,11 @@ bot.on("message", async function(message) {
      message.delete();
     break;
       
+      case "tuto":
+     message.reply("Voilà sa Chaine: https://www.youtube.com/channel/UC_QFfWt3GnIv2CyixrtWw1g :ok_hand:");
+     message.delete();
+    break;
+      
       case "ts":
      message.reply("Voilà l'ip du TeamSpeak: 176.190.225.113:9988 :ok_hand:");
      message.delete();
