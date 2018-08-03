@@ -129,7 +129,7 @@ bot.on("message", async function(message) {
     break;
       
       case "tuto":
-     message.reply("Voilà sa Chaine: https://www.youtube.com/channel/UC_QFfWt3GnIv2CyixrtWw1g :ok_hand:");
+     message.reply("Chaine Youtube de Evoria: https://www.youtube.com/channel/UC_QFfWt3GnIv2CyixrtWw1g :ok_hand:");
      message.delete();
     break;
       
