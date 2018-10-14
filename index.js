@@ -139,7 +139,7 @@ bot.on("message", async function(message) {
     break;
 
     case "david":
-     message.channel.send("@everyone Voilà le discord du créateur: https://discord.gg/cSTeY7y  :ok_hand:");
+     message.channel.send("@everyone Voilà le discord du créateur: https://discord.gg/WvzCmAz et https://discord.gg/hbevX5w et https://discord.gg/DveQCp4  :ok_hand:");
      message.delete();
     break;
       
