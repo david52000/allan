@@ -143,6 +143,11 @@ bot.on("message", async function(message) {
      message.delete();
     break;
       
+    case "evh":
+     message.channel.send("@everyone Voilà le discord du créateur: https://discord.gg/pGVXZde :ok_hand:");
+     message.delete();
+    break;
+      
       case "serveur":
 
      message.reply("Serveur arrive dans quelque temps");
